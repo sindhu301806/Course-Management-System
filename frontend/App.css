@@ -1,0 +1,100 @@
+/* .App {
+  text-align: center;
+} */
+
+
+.App {
+  background-color: ghostwhite;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:stretch;
+  font-size: calc(10px + 2vmin);
+  color: skyblue;
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+.signin{
+  margin-left: 30%;
+  margin: 25px;
+  color: steelblue;
+}
+
+.appbutton{
+  margin-left: 25px;
+  padding: 5px;
+  width: 110px;
+  border: 1px solid;
+  cursor: pointer;
+}
+.printone{
+  margin-left:22%;
+}
+.inputBox {
+  display: block;
+  padding: 10px;
+  margin: 23px;
+  border: 1px solid skyblue;
+  width: 300px;
+}
+tr:hover {background-color: rgb(80, 150, 255);}
+
+.courselist {
+  margin-right: 750px;
+  margin-top: 0px;
+}
+
+.appContainer {
+  margin-left: 10px;
+}
+
+td, th {
+  border: 1px solid #777;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tbody tr:nth-child(odd) {
+  background: #eeeeee;
+}
+caption {
+  font-size: 0.8rem;
+}
+
+.tada{
+  color: black;
+  font-family: sans-serif;
+}
+.jaja{
+  background-color: whitesmoke;
+  margin-top: 0%;
+}
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+}
+.nav-ul li a{
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+}
+.nav-ul {
+  background-color: skyblue;
+  padding: 5px;
+  margin: 0;
+}
+.tablehead{
+  background-color:whitesmoke;
+  size: 5cm;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+
+}
